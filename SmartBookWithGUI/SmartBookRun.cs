@@ -23,7 +23,7 @@ namespace SmartBookWithGUI
             if (!loaded)
             {
                 Console.WriteLine(lMessage);
-                Console.WriteLine("Press any button to continue");
+                Console.WriteLine("Press any button to continue");                
                 Console.ReadKey();
             }
             queryLib = sortLib(currentQuery);
