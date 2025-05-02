@@ -70,7 +70,7 @@ namespace XUnitSmartBookWithGUI
 
                 static bool containsString(Book book, string toCheck)
                 {
-                    if (book.title.Contains(toCheck) || book.author.Contains(toCheck)) return true;
+                    if (book.title.ToLower().Contains(toCheck.ToLower()) || book.author.ToLower().Contains(toCheck.ToLower())) return true;
                     return false;
                 }
             }  
